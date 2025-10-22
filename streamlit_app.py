@@ -119,25 +119,55 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.markdown("""
-    <div class="feature-card">
-        <h4 style='color: black;'>🚀 Smart Matching</h4>
-        <p style='color: black;'>Advanced AI-powered resume matching with multiple algorithms</p>
+    <div style='
+        background-color: #f8f9fa; 
+        padding: 20px; 
+        border-radius: 10px; 
+        border-left: 4px solid #1F77B4;
+        margin-bottom: 1rem;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    '>
+        <h4 style='color: black; margin: 0; font-weight: bold;'>🚀 Smart Matching</h4>
+        <p style='color: black; margin: 5px 0 0 0;'>Advanced AI-powered resume matching with multiple algorithms</p>
     </div>
     """, unsafe_allow_html=True)
 
 with col2:
     st.markdown("""
-    <div class="feature-card">
-        <h4 style='color: black; font-weight: bold; font-size: 18px;'>📊 Analytics Dashboard</h4>
-        <p style='color: black;'>Comprehensive insights and visualizations</p>
+    <div style='
+        background-color: #f8f9fa; 
+        padding: 20px; 
+        border-radius: 10px; 
+        border-left: 4px solid #1F77B4;
+        margin-bottom: 1rem;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    '>
+        <h4 style='color: black; margin: 0; font-weight: bold;'>📊 Analytics Dashboard</h4>
+        <p style='color: black; margin: 5px 0 0 0;'>Comprehensive insights and visualizations</p>
     </div>
     """, unsafe_allow_html=True)
 
 with col3:
     st.markdown("""
-    <div class="feature-card">
-        <h4 style='color: black;'>🔧 Advanced Features</h4>
-        <p style='color: black;'>Batch processing, custom weights, and filters</p>
+    <div style='
+        background-color: #f8f9fa; 
+        padding: 20px; 
+        border-radius: 10px; 
+        border-left: 4px solid #1F77B4;
+        margin-bottom: 1rem;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    '>
+        <h4 style='color: black; margin: 0; font-weight: bold;'>🔧 Advanced Features</h4>
+        <p style='color: black; margin: 5px 0 0 0;'>Batch processing, custom weights, and filters</p>
     </div>
     """, unsafe_allow_html=True)
 # ---------------- Job Description Input ----------------
