@@ -128,7 +128,7 @@ with col1:
 with col2:
     st.markdown("""
     <div class="feature-card">
-        <h4 style='color: black;'>📊 Analytics Dashboard</h4>
+        <h4 style='color: black; font-weight: bold; font-size: 18px;'>📊 Analytics Dashboard</h4>
         <p style='color: black;'>Comprehensive insights and visualizations</p>
     </div>
     """, unsafe_allow_html=True)
@@ -140,7 +140,6 @@ with col3:
         <p style='color: black;'>Batch processing, custom weights, and filters</p>
     </div>
     """, unsafe_allow_html=True)
-
 # ---------------- Job Description Input ----------------
 st.subheader("📋 Job Description")
 job_description = st.text_area(
