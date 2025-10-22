@@ -76,18 +76,6 @@ st.markdown("""
     }
 
 
-    st.markdown("""
-    .feature-card {
-        background-color: #f8f9fa;
-        padding: 1.5rem;
-        border-radius: 10px;
-        border-left: 4px solid #1F77B4;
-        margin-bottom: 1rem;
-        color: black !important;
-    }
-    .feature-card h4, .feature-card p {
-        color: black !important;
-    }
 
 </style>
 """, unsafe_allow_html=True)
