@@ -120,24 +120,24 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.markdown("""
     <div class="feature-card">
-        <h4>🚀 Smart Matching</h4>
-        <p>Advanced AI-powered resume matching with multiple algorithms</p>
+        <h4 style='color: black;'>🚀 Smart Matching</h4>
+        <p style='color: black;'>Advanced AI-powered resume matching with multiple algorithms</p>
     </div>
     """, unsafe_allow_html=True)
 
 with col2:
     st.markdown("""
     <div class="feature-card">
-        <h4>📊 Analytics Dashboard</h4>
-        <p>Comprehensive insights and visualizations</p>
+        <h4 style='color: black;'>📊 Analytics Dashboard</h4>
+        <p style='color: black;'>Comprehensive insights and visualizations</p>
     </div>
     """, unsafe_allow_html=True)
 
 with col3:
     st.markdown("""
     <div class="feature-card">
-        <h4>🔧 Advanced Features</h4>
-        <p>Batch processing, custom weights, and filters</p>
+        <h4 style='color: black;'>🔧 Advanced Features</h4>
+        <p style='color: black;'>Batch processing, custom weights, and filters</p>
     </div>
     """, unsafe_allow_html=True)
 
