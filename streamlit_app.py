@@ -130,7 +130,7 @@ with col1:
         flex-direction: column;
         justify-content: center;
     '>
-        <h4 style='color: black; margin: 0; font-weight: bold;'>🚀 Smart Matching</h4>
+        <h4 style='color: black; margin: 0; font-weight: bold;'> Smart Matching</h4>
         <p style='color: black; margin: 5px 0 0 0;'>Advanced AI-powered resume matching with multiple algorithms</p>
     </div>
     """, unsafe_allow_html=True)
@@ -148,7 +148,7 @@ with col2:
         flex-direction: column;
         justify-content: center;
     '>
-        <h4 style='color: black; margin: 0; font-weight: bold;'>📊 Analytics Dashboard</h4>
+        <h4 style='color: black; margin: 0; font-weight: bold;'> Analytics Dashboard</h4>
         <p style='color: black; margin: 5px 0 0 0;'>Comprehensive insights and visualizations</p>
     </div>
     """, unsafe_allow_html=True)
@@ -166,7 +166,7 @@ with col3:
         flex-direction: column;
         justify-content: center;
     '>
-        <h4 style='color: black; margin: 0; font-weight: bold;'>🔧 Advanced Features</h4>
+        <h4 style='color: black; margin: 0; font-weight: bold;'> Advanced Features</h4>
         <p style='color: black; margin: 5px 0 0 0;'>Batch processing, custom weights, and filters</p>
     </div>
     """, unsafe_allow_html=True)
