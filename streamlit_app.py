@@ -115,6 +115,61 @@ with st.sidebar:
     st.info("💡 **Pro Tip**: Use the hybrid approach for most accurate results combining semantic matching and keyword analysis.")
 
 # ---------------- Instructions with Feature Cards ----------------
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.markdown("""
+    <div style='
+        background-color: #f8f9fa; 
+        padding: 20px; 
+        border-radius: 10px; 
+        border-left: 4px solid #1F77B4;
+        margin-bottom: 1rem;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    '>
+        <h4 style='color: black; margin: 0; font-weight: bold;'>স্মার্ট ম্যাচিং</h4>
+        <p style='color: black; margin: 5px 0 0 0;'>একাধিক অ্যালগরিদম ব্যবহার করে উন্নত এআই-চালিত রিজিউম মিলানো সিস্টেম</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col2:
+    st.markdown("""
+    <div style='
+        background-color: #f8f9fa; 
+        padding: 20px; 
+        border-radius: 10px; 
+        border-left: 4px solid #1F77B4;
+        margin-bottom: 1rem;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    '>
+        <h4 style='color: black; margin: 0; font-weight: bold;'>বিশ্লেষণ ড্যাশবোর্ড</h4>
+        <p style='color: black; margin: 5px 0 0 0;'>সম্পূর্ণ ইনসাইট ও ডেটা ভিজুয়ালাইজেশনের সুবিধা</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col3:
+    st.markdown("""
+    <div style='
+        background-color: #f8f9fa; 
+        padding: 20px; 
+        border-radius: 10px; 
+        border-left: 4px solid #1F77B4;
+        margin-bottom: 1rem;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    '>
+        <h4 style='color: black; margin: 0; font-weight: bold;'>উন্নত ফিচার</h4>
+        <p style='color: black; margin: 5px 0 0 0;'>ব্যাচ প্রসেসিং, কাস্টম ওজন, ও ফিল্টার সেটিংস</p>
+    </div>
+    """, unsafe_allow_html=True)
 
 # ---------------- Advanced Options ----------------
 with st.expander("🔧 Advanced Options"):
