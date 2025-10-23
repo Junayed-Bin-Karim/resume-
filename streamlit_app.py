@@ -130,8 +130,8 @@ with col1:
         flex-direction: column;
         justify-content: center;
     '>
-        <h4 style='color: black; margin: 0; font-weight: bold;'>স্মার্ট ম্যাচিং</h4>
-        <p style='color: black; margin: 5px 0 0 0;'>একাধিক অ্যালগরিদম ব্যবহার করে উন্নত এআই-চালিত রিজিউম মিলানো সিস্টেম</p>
+        <h4 style='color: black; margin: 0; font-weight: bold;'>🚀 Smart Matching</h4>
+        <p style='color: black; margin: 5px 0 0 0;'>Advanced AI-powered resume matching with multiple algorithms</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -148,8 +148,8 @@ with col2:
         flex-direction: column;
         justify-content: center;
     '>
-        <h4 style='color: black; margin: 0; font-weight: bold;'>বিশ্লেষণ ড্যাশবোর্ড</h4>
-        <p style='color: black; margin: 5px 0 0 0;'>সম্পূর্ণ ইনসাইট ও ডেটা ভিজুয়ালাইজেশনের সুবিধা</p>
+        <h4 style='color: black; margin: 0; font-weight: bold;'>📊 Analytics Dashboard</h4>
+        <p style='color: black; margin: 5px 0 0 0;'>Comprehensive insights and visualizations</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -166,10 +166,37 @@ with col3:
         flex-direction: column;
         justify-content: center;
     '>
-        <h4 style='color: black; margin: 0; font-weight: bold;'>উন্নত ফিচার</h4>
-        <p style='color: black; margin: 5px 0 0 0;'>ব্যাচ প্রসেসিং, কাস্টম ওজন, ও ফিল্টার সেটিংস</p>
+        <h4 style='color: black; margin: 0; font-weight: bold;'>🔧 Advanced Features</h4>
+        <p style='color: black; margin: 5px 0 0 0;'>Batch processing, custom weights, and filters</p>
     </div>
     """, unsafe_allow_html=True)
+# ---------------- Job Description Input ----------------
+st.subheader("📋 Job Description")
+job_description = st.text_area(
+    "Enter Job Description Here:",
+    height=150,
+    placeholder="Write the job description for the position...",
+    help="Include skills, experience requirements, and qualifications for better matching"
+)
+
+# ---------------- Resume Upload with Batch Processing ----------------
+st.subheader("📂 Upload Resumes")
+col1, col2 = st.columns([2, 1])
+
+with col1:
+    resume_files = st.file_uploader(
+        "Upload Resumes (.pdf, .docx, .txt)",
+        type=["pdf", "docx", "txt"],
+        accept_multiple_files=True,
+        help="You can upload multiple files at once"
+    )
+
+with col2:
+    st.info(f"""
+    **Upload Status:**
+    - Total Files: {len(resume_files) if resume_files else 0}
+    - Supported formats: PDF, DOCX, TXT
+    """)
 
 # ---------------- Advanced Options ----------------
 with st.expander("🔧 Advanced Options"):
